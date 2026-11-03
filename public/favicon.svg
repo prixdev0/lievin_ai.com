@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="64" height="64">
+  <defs>
+    <linearGradient id="favLievin" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f" />
+      <stop offset="35%" stop-color="#0369a1" />
+      <stop offset="70%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <radialGradient id="favBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0b172a" />
+      <stop offset="100%" stop-color="#030712" />
+    </radialGradient>
+  </defs>
+  <rect width="100" height="100" rx="22" fill="url(#favBg)" />
+  <rect width="100" height="100" rx="22" fill="none" stroke="#0ea5e9" stroke-width="2" stroke-opacity="0.4" />
+  
+  <!-- Lievin L Emblem -->
+  <path
+    d="M 45 22
+       C 65 24, 72 36, 64 50
+       C 56 64, 42 74, 34 78
+       C 24 82, 22 74, 28 68
+       C 35 60, 48 62, 55 67
+       C 62 72, 72 73, 74 68
+       C 75 64, 70 63, 67 65
+       C 60 69, 52 69, 46 64
+       C 40 58, 44 51, 52 38
+       C 58 28, 54 22, 45 22 Z"
+    fill="url(#favLievin)"
+  />
+  <path
+    d="M 37 32
+       C 34 26, 38 21, 46 22
+       C 55 23, 73 30, 72 45
+       C 71 57, 52 70, 42 78
+       C 37 82, 33 83, 29 80
+       C 23 76, 24 68, 30 63
+       C 39 57, 50 61, 57 66
+       C 66 71, 75 70, 76 65"
+    fill="none"
+    stroke="url(#favLievin)"
+    stroke-width="4.5"
+    stroke-linecap="round"
+  />
+</svg>

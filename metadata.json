@@ -1,0 +1,6 @@
+{
+  "name": "Lievin AI Multi-Agent Cognitive Ecosystem",
+  "description": "Lievin AI: An integrated, AGI-adjacent multi-agent system that autonomously navigates the web, resolves complex queries, and executes end-to-end image and video creation and editing workflows within a single cognitive ecosystem.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

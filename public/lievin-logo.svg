@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <!-- Lievin Signature Blue to Cyan Gradient matching uploaded logo -->
+    <linearGradient id="lievinGradient" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#071b34" />
+      <stop offset="25%" stop-color="#0c356a" />
+      <stop offset="55%" stop-color="#0284c7" />
+      <stop offset="85%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <linearGradient id="lievinTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#67e8f9" />
+      <stop offset="100%" stop-color="#a5f3fc" />
+    </linearGradient>
+
+    <filter id="lievinGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#0ea5e9" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <g transform="translate(0, -10)">
+    <!-- Elegant Cursive 'L' with infinity flourish ribbons -->
+    <!-- Top left flourish sweeping into top loop -->
+    <path
+      d="M 195 185
+         C 185 155, 195 130, 225 130
+         C 260 130, 345 160, 345 220
+         C 345 270, 260 320, 225 365
+         C 210 385, 195 405, 170 405
+         C 140 405, 130 380, 155 350
+         C 185 315, 230 315, 260 330
+         C 290 345, 330 385, 355 375
+         C 365 370, 360 350, 345 345
+         C 320 340, 290 355, 265 370
+         C 240 385, 215 370, 230 340
+         C 255 290, 335 240, 335 195
+         C 335 150, 280 135, 240 145
+         C 205 155, 190 190, 205 210
+         C 215 220, 235 220, 240 210"
+      fill="none"
+      stroke="url(#lievinGradient)"
+      stroke-width="16"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      filter="url(#subtleGlow)"
+    />
+
+    <!-- Main cursive spine with tapering calligraphy -->
+    <path
+      d="M 235 145
+         C 325 150, 345 200, 315 260
+         C 285 320, 225 370, 180 395
+         C 140 415, 125 385, 150 355
+         C 180 320, 235 320, 265 340
+         C 305 365, 345 375, 355 355
+         C 360 345, 345 340, 330 345
+         C 295 360, 255 360, 230 335
+         C 205 310, 225 275, 260 215
+         C 290 165, 275 145, 235 145 Z"
+      fill="url(#lievinGradient)"
+      filter="url(#lievinGlow)"
+      opacity="0.95"
+    />
+
+    <!-- Calligraphic ribbon flourish at base -->
+    <path
+      d="M 135 370
+         C 125 400, 150 420, 180 415
+         C 215 410, 250 375, 290 360
+         C 325 348, 355 355, 360 370
+         C 365 385, 340 405, 305 400
+         C 270 395, 235 360, 200 350
+         C 165 340, 140 350, 135 370 Z"
+      fill="url(#lievinGradient)"
+      opacity="0.9"
+    />
+  </g>
+
+  <!-- Clean modern geometric typography: LIEVIN -->
+  <text
+    x="250"
+    y="460"
+    text-anchor="middle"
+    font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif"
+    font-size="44"
+    font-weight="300"
+    letter-spacing="18"
+    fill="url(#lievinTextGrad)"
+    filter="url(#subtleGlow)"
+  >LIEVIN</text>
+</svg>
